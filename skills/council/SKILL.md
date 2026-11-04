@@ -11,10 +11,10 @@ fixes until reviews return. If the user wants to discard the implementation
 and explore new ideas, skip fixes to code being replaced.
 
 Bring in three delegates to help with the user's request, usually for review
-or feedback. Use one strong model from each of three different providers, at
-medium reasoning effort unless the user names another level. If the user's instructions name council members, use
-those. Otherwise pick the latest flagship model from each provider, for
-example Claude Opus, GPT Sol, and Gemini Pro.
+or feedback, at medium reasoning effort unless the user names another level.
+If the user's instructions name council members, use those. Otherwise the
+council is Claude Opus (latest), GPT Sol (latest) and GPT Astra (latest); two
+share a provider, and that is intended.
 
 In T3 Code, use `orchestrator_capabilities` to resolve the models, then
 `delegate_task` to start one delegate per model in parallel. Elsewhere, use
