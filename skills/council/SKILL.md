@@ -18,7 +18,7 @@ share a provider, and that is intended.
 
 In T3 Code, use `orchestrator_capabilities` to resolve the models, then
 `delegate_task` to start one delegate per model in parallel. Elsewhere, use
-the harness's subagent tools. If you cannot reach three providers, or a named
+the harness's subagent tools. If a council
 member is unavailable, report it instead of substituting.
 
 Give each delegate the request and relevant context. For review or feedback,
