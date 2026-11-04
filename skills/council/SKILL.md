@@ -22,7 +22,10 @@ the harness's subagent tools. If you cannot reach three providers, or a named
 member is unavailable, report it instead of substituting.
 
 Give each delegate the request and relevant context. For review or feedback,
-keep their work read-only. Collect their responses and summarize the useful
+keep their work read-only. Delegates do not run test suites, builds,
+typecheck, type-aware lint, or local models: the host allows one heavy command
+at a time. Run the relevant checks yourself before each round and put the
+results in the brief. Collect their responses and summarize the useful
 findings, disagreements, and recommended next steps.
 
 For a code review, ask each delegate for a score out of 10.
